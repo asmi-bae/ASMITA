@@ -1,12 +1,26 @@
 # Project Description
 
-This project is a Git practice exercise covering:
+**Author:** Asmita  
+**Last Updated:** 2026  
 
-- Initializing a repository
-- Creating and committing files
-- Using .gitignore
-- Branching and merginggit init
-git config user.email "তোমার@email.com"
-git config user.name "Asmita"
-git add .
-git commit -m "Initial commit: project structure and basic program"
+## Overview
+
+This is a hands-on Git practice project covering real-world workflows.
+
+## Features
+
+- ➕ Add two numbers
+- ➖ Subtract two numbers  
+- ✖️ Multiply two numbers
+
+## Git Concepts Practiced
+
+- Initializing a repository with `git init`
+- Staging and committing with `git add` and `git commit`
+- Branching with `git branch` and `git checkout`
+- Pushing to GitHub with `git push`
+
+## Technologies Used
+
+- Python 3
+- Git & GitHub
