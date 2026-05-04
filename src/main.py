@@ -1,5 +1,5 @@
 from datetime import date
-from utils import add, subtract, multiply
+from utils import add, subtract, multiply, divide
 
 def main():
     print("Name: Asmita")
@@ -10,6 +10,13 @@ def main():
     print(f"  {x} + {y} = {add(x, y)}")
     print(f"  {x} - {y} = {subtract(x, y)}")
     print(f"  {x} x {y} = {multiply(x, y)}")
+    print(f"  {x} / {y} = {divide(x, y)}")
+
+    # Error handling demo
+    try:
+        print(divide(5, 0))
+    except ValueError as e:
+        print(f"  Error caught: {e}")
 
 if __name__ == "__main__":
     main()
